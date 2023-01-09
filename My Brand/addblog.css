@@ -1,0 +1,103 @@
+body{
+    margin: 0px;
+}
+.nav{
+    height: 100%;
+    background-color: black;
+    width: 15%;
+    padding-top:1%;  
+    padding-bottom: 10%;
+    padding-left: 20px;
+   position: absolute;
+}
+
+.nav a{
+    text-decoration: none;
+    color:white;
+    font-size: 25px;
+}
+#main{
+    color: rgb(185, 39, 58);
+}
+.personal{
+    height: 15%;
+    width:65%;
+    margin-right: 2%;
+    left: 30%;
+    background-color: rgb(43, 40, 40);
+    position: absolute;
+    margin-top: 2%;
+    border-radius: 2VH;
+    box-shadow: 5px 5px 20px rgb(0 0 0 / 46%);
+}
+.personal h2{
+    margin-left: 7%;
+    margin-top: 18px;
+    font-size: 3rem;
+    color: white;
+    position: absolute;
+
+}
+.personal h4{
+    margin-top: 40px;
+    color: white;
+    position: absolute;
+    margin-left: 87%;
+    
+}
+.personal a{
+    text-decoration: none;
+    color: #c54157;
+}
+.blog   {
+    width:65%;
+    position:absolute;
+    left: 30%;
+    height: 100%;
+    background-color: rgb(43, 40, 40);
+    margin-top: 10%;
+    padding-bottom: 2%;
+}
+.blog form{
+    margin-top: 5%;
+    margin-left: 5%;
+}
+.blog input,textarea{
+    margin-top: 1%;
+border-radius: 1vh;
+}
+.blog input{
+    width: 60%;
+    height: 7%;
+}
+.blog textarea{
+    width: 80%;
+    height: 45%;
+
+}
+.blog label{
+    margin-top: 2%;
+    color: white;
+    font-weight: 9000;
+}
+img{
+    width: 70%;
+}
+.blog button{
+    height:10%;
+    width:15%;
+    border-radius: 1vh;
+    background-color:#cf1767;
+    border-color: white;
+    font-weight: 9000;
+    box-shadow: 5px 5px 0px 0px rgb(0 0 0 / 46%);
+    position: absolute;
+    margin-top: 24% ;
+    margin-left: 2%;
+    font-size: 99%;
+    
+}
+.blog button:hover{
+    background-color: black;
+    color: white;
+}

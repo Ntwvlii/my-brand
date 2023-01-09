@@ -1,0 +1,64 @@
+body{
+    text-align: center;
+}
+body img{
+    width: 40%;
+}
+body p{
+    text-align: left;
+    margin-left:5%;
+    margin-right: 10%;
+    color: rgb(114, 112, 112);
+}
+h4 em{
+    color: rgb(102, 98, 98);
+}
+hr{
+    background-color: #cf1767;
+   border: 0px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 10%;
+    height: 2px;
+}
+.comments{
+    text-align: left;
+    margin-left: 5%;
+}
+.comments hr{
+    margin-right: 5%;
+    align-items: left;
+    width: 97%;
+}
+.comments input{
+    width: 30%;
+    height: 8%;
+border-radius: 1vh;
+margin-bottom:1% ;
+}
+.comments textarea{
+    width: 30%;
+    border-radius: 1vh;
+    }
+    .comments button{
+        margin-top: 2%;
+        width:10%;
+        height:7%;
+        background-color:#cf1767;
+        border-radius: 1vh;
+        border-color: #cf1767;
+        box-shadow: 3px 3px 0px 0px rgba(114, 113, 113, 0.46);
+        transition: 0.3s;
+    }
+    .comments button:hover{
+        border-color: white;
+    background-color: black;
+    color: white;
+    transform: scale(0.9);
+    }
+    h7{
+        color: rgb(116, 115, 115);
+    }
+    .cards{
+        margin-right: 30%;
+    }
